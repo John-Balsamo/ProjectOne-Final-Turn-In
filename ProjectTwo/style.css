@@ -1,0 +1,90 @@
+html {
+    background-image: url("leaves.jpg");
+    background-color: #cccccc;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+header, div, nav, section, footer {
+    display: block;
+}
+
+#header-container {
+  width: 99%;
+  position: relative;
+  text-align: center;
+  background-color: #cbced3;
+} 
+
+#header-container1 {
+  width: 99%;
+  position: relative;
+  text-align: center;
+  background-color: #cbced3;
+} 
+
+#header-container2 {
+  width: 99%;
+  position: relative;
+  text-align: center;
+  background-color: #cbced3;
+} 
+
+.container {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: #e0e2e5;
+  text-align: left;
+  font-family: 'verdana', serif;
+  border: 3px groove #edeeef;
+}
+
+body { 
+    line-height: 1.5;
+}
+
+fieldset {
+    border: solid 1px #000000;
+}
+
+
+p {
+    color: #231c1c;
+    margin-left: auto;
+	font-family: 'verdana', serif;
+}
+
+h1 {
+    color: #363738;
+    margin-left: auto;
+    font-family: 'BenchNine', sans-serif;
+}
+h2 {
+    margin-left: auto;
+	font-family: 'BenchNine', sans-serif;
+}
+
+li {
+    color: #231c1c;
+    margin-left: auto;
+}
+
+    li::before {
+        color:#231c1c;
+}
+
+footer {
+    color: black;
+    margin-left: auto
+}
+
+ol, ul {
+    color: #231c1c;
+    list-style: circle;
+    
+}
